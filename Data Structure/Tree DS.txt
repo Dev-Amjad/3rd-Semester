@@ -1,0 +1,57 @@
+Tree Data Structure==Non Linear Data Structure:
+		
+	Termonologies:
+		Root Node
+		Internal Nodes
+		Edge
+		Leaf Node
+		Sub-Tree
+
+
+					(....Application of trees...)
+	i)Show Hierarichal data
+	ii)Databases(indexing)
+	iii)Auto-completion
+	iv)Compilers
+	v)Compression Algorithams(JPEG,MP3)
+
+
+1)Binary Tree
+-A Tree with each node having at most 2 children is called binary tree.
+
+	Types of binary tree:
+		i) Full/Strict Binary tree
+			:- Type of binary tree in which every node has 0 or 2 Children
+
+		ii) Almost Complete Binary
+			:- In this type of binary tree we assign value from left to right child
+			   and have to complete a level first.
+
+		iii) Complete/Perfect Binary tree
+			:- In this type of tree every node has 2 childs except leaf nodes, means no holes,
+				Note:-Last level is the highest level in between all should be filled.
+
+		iv) Binary Search tree
+			:-It is a Type of binary tree which follows the pattern of:
+				leftNode(item) < Node(item) < rightNode(item)
+
+	Height=biggest level;
+	...Level=eneration...
+
+	i)Maximum Numbers of nodes at level i(0-n) is {2^i};
+	ii)Maximum Numbers of nodes in a tree with height h is {(2^h)-1};
+
+  		Implementation:
+			1)Array
+
+				i)left child of i=2*i;
+				ii)right child of i=2*i+1;
+				iii) Parent node of any node i =i/2;
+
+			2)Node Class	
+			
+  		types of traversal in Binary tree;
+		
+			i)InOrder->LNR
+			ii)PreOrder->NLR
+			iii)PostOrder->LRN
